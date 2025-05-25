@@ -2,55 +2,82 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Lux Insider</title>
-  <style>
-    body {
-      margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background: linear-gradient(to right, #000000, #1a1a1a);
-      color: white;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      text-align: center;
-      padding: 20px;
-    }
-    img {
-      width: 180px;
-      margin-bottom: 20px;
-    }
-    h1 {
-      font-size: 2.2em;
-      margin-bottom: 10px;
-    }
-    p {
-      font-size: 1.1em;
-      margin-bottom: 25px;
-    }
-    a {
-      background-color: #d4af37;
-      color: black;
-      padding: 10px 20px;
-      text-decoration: none;
-      font-weight: bold;
-      border-radius: 8px;
-      transition: background 0.3s;
-    }
-    a:hover {
-      background-color: #c2992f;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lux Insider | Tecnologia a nível da realeza</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
-  <img src="https://i.postimg.cc/qt2t0DL0/luxinsider-logo.png" alt="Lux Insider Logo">
-  <h1>Lux Insider</h1>
-  <p>Tecnologia a nível da realeza</p>
-  <a href="https://www.instagram.com/luxinsider.oficial" target="_blank">Visite nosso Instagram</a>
-  <br><br>
-  <a href="https://wa.me/5511974272013" target="_blank">Entre em contato no WhatsApp</a>
+
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <img src="logo.png" alt="Lux Insider" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#servicos">Serviços</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Apresentação -->
+    <section id="home" class="hero">
+        <div class="container">
+            <h1>Tecnologia a nível da realeza</h1>
+            <p>Seu dispositivo tratado com excelência, cuidado e agilidade.</p>
+        </div>
+    </section>
+
+    <!-- Sobre -->
+    <section id="sobre" class="sobre">
+        <div class="container">
+            <h2>Quem somos</h2>
+            <p>Na <strong>Lux Insider</strong>, oferecemos assistência técnica premium para celulares e computadores. Nossa missão é entregar um serviço de alto padrão, fazendo você se sentir tratado como realeza. Valorizamos qualidade, transparência e agilidade em cada atendimento.</p>
+        </div>
+    </section>
+
+    <!-- Serviços -->
+    <section id="servicos" class="servicos">
+        <div class="container">
+            <h2>Serviços</h2>
+            <ul>
+                <li>🔧 Assistência Técnica para Celular</li>
+                <li>💻 Assistência Técnica para PC</li>
+                <li>⚙️ Upgrade de Hardware</li>
+                <li>🔍 Diagnóstico e Manutenção</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contato -->
+    <section id="contato" class="contato">
+        <div class="container">
+            <h2>Fale Conosco</h2>
+            <p>Entre em contato pelos nossos canais:</p>
+            <div class="icones">
+                <a href="https://wa.me/5511974272013" target="_blank">WhatsApp</a>
+                <a href="https://www.instagram.com/luxinsider.oficial/" target="_blank">Instagram</a>
+                <a href="mailto:contato@luxinsider.com.br">E-mail</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Lux Insider - Todos os direitos reservados.</p>
+            <p>Termos de uso | Política de privacidade</p>
+        </div>
+    </footer>
+
+    <!-- Botão WhatsApp -->
+    <a href="https://wa.me/5511974272013" class="whatsapp" target="_blank">💬</a>
+
 </body>
 </html>
+   
