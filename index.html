@@ -1,251 +1,123 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Lux Insider - Tecnologia a Nível de Realeza</title>
-    <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lux Insider - Tecnologia a nível da realeza</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #0d0d0d;
+      color: #fff;
+    }
+    header {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #d4af37;
+    }
+    header img {
+      max-width: 120px;
+    }
+    header h1 {
+      margin: 10px 0 5px;
+      font-size: 24px;
+      color: #d4af37;
+    }
+    header p {
+      margin: 0;
+      font-size: 14px;
+      color: #ccc;
+    }
+    .container {
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 30px;
+      text-align: center;
+    }
+    .container h2 {
+      color: #d4af37;
+      margin-bottom: 20px;
+    }
+    .btn {
+      display: inline-block;
+      background: #d4af37;
+      color: #000;
+      padding: 12px 25px;
+      margin: 15px 10px;
+      border-radius: 8px;
+      font-weight: bold;
+      text-decoration: none;
+      transition: 0.3s;
+    }
+    .btn:hover {
+      background: #fff;
+      color: #000;
+    }
+    .info {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 14px;
+      color: #ccc;
+    }
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 20px;
+      margin-top: 40px;
+      font-size: 12px;
+      color: #777;
+      border-top: 1px solid #333;
+    }
+    /* Botão flutuante WhatsApp */
+    .whatsapp-btn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #25d366;
+      color: #fff;
+      border-radius: 50%;
+      width: 60px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 28px;
+      text-decoration: none;
+      box-shadow: 0 2px 10px rgba(0,0,0,0.3);
+      transition: 0.3s;
+    }
+    .whatsapp-btn:hover {
+      background: #1ebe5d;
+    }
+  </style>
 </head>
 <body>
-    <!-- Header Premium -->
-    <header class="header">
-        <div class="container">
-            <div class="logo-container">
-                <img src="lux_logo.png" alt="Lux Insider" class="logo">
-            </div>
-            <nav class="nav">
-                <ul class="nav-list">
-                    <li><a href="#servicos" class="nav-link">Serviços Reais</a></li>
-                    <li><a href="#diferenciais" class="nav-link">Nossa Realeza</a></li>
-                    <li><a href="#galeria" class="nav-link">Galeria</a></li>
-                    <li><a href="#contato" class="nav-link">Contato VIP</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <header>
+    <img src="imagens/logo.png" alt="Lux Insider Logo">
+    <h1>Lux Insider</h1>
+    <p>Tecnologia a nível da realeza</p>
+  </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
-        <div class="hero-background"></div>
-        <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">Tecnologia a Nível de Realeza</h1>
-                <p class="hero-subtitle">Onde cada dispositivo recebe o tratamento digno de um rei. Assistência técnica premium com excelência incomparável.</p>
-                <div class="hero-buttons">
-                    <a href="#servicos" class="btn btn-primary">Descobrir Serviços</a>
-                    <a href="#contato" class="btn btn-secondary">Contato VIP</a>
-                </div>
-            </div>
-        </div>
-    </section>
+  <div class="container">
+    <h2>Bem-vindo à Lux Insider</h2>
+    <p>Assistência técnica premium em smartphones e computadores. Experiência única com qualidade e exclusividade.</p>
+    <a href="https://www.instagram.com/luxinsider.oficial" class="btn" target="_blank">📷 Instagram</a>
+    <a href="https://wa.me/5511974272013" class="btn" target="_blank">💬 WhatsApp</a>
+  </div>
 
-    <!-- Serviços Premium -->
-    <section id="servicos" class="services">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Serviços da Corte Tecnológica</h2>
-                <p class="section-subtitle">Cada reparo é executado com a precisão e cuidado dignos da realeza</p>
-            </div>
-            
-            <div class="services-grid">
-                <div class="service-card">
-                    <div class="service-icon">
-                        <div class="icon-crown">👑</div>
-                        <div class="icon-device">📱</div>
-                    </div>
-                    <h3 class="service-title">Reparo Real de Smartphones</h3>
-                    <p class="service-description">Restauração completa com peças premium e garantia vitalícia. Seu smartphone volta como novo, com o selo de qualidade real.</p>
-                    <ul class="service-features">
-                        <li>Telas originais premium</li>
-                        <li>Baterias de alta performance</li>
-                        <li>Garantia estendida</li>
-                    </ul>
-                </div>
+  <div class="info">
+    <p><strong>📞 Telefone:</strong> (11) 97427-2013</p>
+    <p><strong>⏰ Horário de Atendimento:</strong> Segunda a Sexta: 9h às 18h | Sábado: 9h às 16h</p>
+  </div>
 
-                <div class="service-card">
-                    <div class="service-icon">
-                        <div class="icon-crown">👑</div>
-                        <div class="icon-device">💻</div>
-                    </div>
-                    <h3 class="service-title">Manutenção Imperial de Notebooks</h3>
-                    <p class="service-description">Upgrade e manutenção com componentes de primeira linha. Performance digna de um imperador tecnológico.</p>
-                    <ul class="service-features">
-                        <li>Limpeza profissional completa</li>
-                        <li>Upgrades premium</li>
-                        <li>Otimização avançada</li>
-                    </ul>
-                </div>
+  <footer>
+    <p>© 2025 Lux Insider - Todos os direitos reservados.</p>
+    <p>Desenvolvido com excelência e sofisticação.</p>
+  </footer>
 
-                <div class="service-card">
-                    <div class="service-icon">
-                        <div class="icon-crown">👑</div>
-                        <div class="icon-device">📟</div>
-                    </div>
-                    <h3 class="service-title">Restauração Nobre de Tablets</h3>
-                    <p class="service-description">Recuperação total com técnicas exclusivas. Seu tablet retorna com funcionalidade e elegância reais.</p>
-                    <ul class="service-features">
-                        <li>Diagnóstico avançado</li>
-                        <li>Peças certificadas</li>
-                        <li>Teste rigoroso de qualidade</li>
-                    </ul>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Diferenciais -->
-    <section id="diferenciais" class="differentials">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Por que Escolher a Realeza?</h2>
-                <p class="section-subtitle">Nossos diferenciais que nos tornam únicos no reino da tecnologia</p>
-            </div>
-            
-            <div class="differentials-grid">
-                <div class="differential-item">
-                    <div class="differential-icon">🛡️</div>
-                    <h3>Garantia Real</h3>
-                    <p>Garantia estendida em todos os serviços, porque a realeza não aceita menos que a perfeição.</p>
-                </div>
-                
-                <div class="differential-item">
-                    <div class="differential-icon">⚡</div>
-                    <h3>Agilidade Imperial</h3>
-                    <p>Atendimento prioritário e prazos reduzidos para quem merece tratamento VIP.</p>
-                </div>
-                
-                <div class="differential-item">
-                    <div class="differential-icon">🔧</div>
-                    <h3>Técnicos Especialistas</h3>
-                    <p>Profissionais certificados e treinados nas mais avançadas técnicas de reparo.</p>
-                </div>
-                
-                <div class="differential-item">
-                    <div class="differential-icon">💎</div>
-                    <h3>Peças Premium</h3>
-                    <p>Utilizamos apenas componentes originais e de primeira linha em todos os reparos.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Galeria -->
-    <section id="galeria" class="gallery">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Galeria Real</h2>
-                <p class="section-subtitle">Veja a excelência dos nossos trabalhos</p>
-            </div>
-            
-            <div class="gallery-grid">
-                <div class="gallery-item">
-                    <img src="premium_technician.png" alt="Técnico Premium" class="gallery-image">
-                    <div class="gallery-overlay">
-                        <h4>Técnico Especialista</h4>
-                        <p>Profissional trabalhando com precisão real</p>
-                    </div>
-                </div>
-                
-                <div class="gallery-item">
-                    <img src="luxury_devices.png" alt="Dispositivos Reparados" class="gallery-image">
-                    <div class="gallery-overlay">
-                        <h4>Dispositivos Restaurados</h4>
-                        <p>Resultado final com qualidade premium</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contato VIP -->
-    <section id="contato" class="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">Contato VIP</h2>
-                <p class="section-subtitle">Entre em contato conosco e receba atendimento real</p>
-            </div>
-            
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="contact-item">
-                        <div class="contact-icon">📞</div>
-                        <div class="contact-details">
-                            <h4>Linha Direta Real</h4>
-                            <p>(11) 97427-2013</p>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">✉️</div>
-                        <div class="contact-details">
-                            <h4>Email Imperial</h4>
-                            <p>contato@luxinsider.com.br</p>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">📍</div>
-                        <div class="contact-details">
-                            <h4>Palácio Tecnológico</h4>
-                            <p><br>São Paulo - SP</p>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-item">
-                        <div class="contact-icon">⏰</div>
-                        <div class="contact-details">
-                            <h4>Horário Real</h4>
-                            <p>Segunda a Sexta: 9h às 18h<br>Sábado: 9h às 16h</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="contact-form">
-                    <form class="form">
-                        <div class="form-group">
-                            <input type="text" class="form-input" placeholder="Seu Nome Real" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="email" class="form-input" placeholder="Email Imperial" required>
-                        </div>
-                        <div class="form-group">
-                            <input type="tel" class="form-input" placeholder="Telefone VIP" required>
-                        </div>
-                        <div class="form-group">
-                            <select class="form-input" required>
-                                <option value="">Selecione o Serviço Real</option>
-                                <option value="smartphone">Reparo de Smartphone</option>
-                                <option value="notebook">Manutenção de Notebook</option>
-                                <option value="tablet">Conserto de Tablet</option>
-                                <option value="outros">Outros Serviços</option>
-                            </select>
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-input form-textarea" placeholder="Descreva seu problema tecnológico..." rows="4" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary btn-full">Solicitar Atendimento Real</button>
-                    </form>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <img src="lux_logo.png" alt="Lux Insider" class="footer-logo-img">
-                </div>
-                <div class="footer-text">
-                    <p>&copy; 2023 Lux Insider. Todos os direitos reservados.</p>
-                    <p>Tecnologia a Nível de Realeza</p>
-                </div>
-            </div>
-        </div>
-    </footer>
-
-    <script src="script.js"></script>
+  <!-- Botão flutuante WhatsApp -->
+  <a href="https://wa.me/5511974272013" class="whatsapp-btn" target="_blank">💬</a>
 </body>
 </html>
