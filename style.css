@@ -615,3 +615,76 @@ body {
 .service-card:nth-child(3) {
     animation-delay: 0.4s;
 }
+
+
+
+/* WhatsApp Floating Button */
+.whatsapp-float {
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25D366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 2px 2px 3px #999;
+    z-index: 1000;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.whatsapp-float:hover {
+    transform: scale(1.1);
+    box-shadow: 3px 3px 6px #999;
+}
+
+.whatsapp-float .whatsapp-icon {
+    width: 35px;
+    height: 35px;
+    animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+    0% { transform: scale(0.9); }
+    70% { transform: scale(1); box-shadow: 0 0 0 10px rgba(37, 211, 102, 0); }
+    100% { transform: scale(0.9); box-shadow: 0 0 0 0 rgba(37, 211, 102, 0); }
+}
+
+/* Responsividade para o botão flutuante */
+@media (max-width: 768px) {
+    .whatsapp-float {
+        width: 50px;
+        height: 50px;
+        bottom: 20px;
+        right: 20px;
+        font-size: 25px;
+    }
+    .whatsapp-float .whatsapp-icon {
+        width: 30px;
+        height: 30px;
+    }
+}
+
+
+
+
+/* Social Links in Footer */
+.social-links {
+    margin-top: 15px;
+}
+
+.social-icon {
+    font-size: 2rem;
+    color: var(--gold-primary);
+    text-decoration: none;
+    transition: transform 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: scale(1.2);
+}
